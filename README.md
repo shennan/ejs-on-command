@@ -1,6 +1,6 @@
 # ejs-on-command
 
-An [ejs]('http://www.embeddedjs.com/') renderer for the command line; with support for piping.
+A command line interface for [ejs]('http://www.embeddedjs.com/') with support for piping.
 
 ## install
 

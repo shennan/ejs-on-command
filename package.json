@@ -1,0 +1,17 @@
+{
+  "name": "ejs-on-command",
+  "version": "1.0.0",
+  "description": "A command line interface for ejs with support for piping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "author": "shennan",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.5.0",
+    "ejs": "^1.0.0",
+    "mkdirp": "^0.5.0"
+  }
+}
