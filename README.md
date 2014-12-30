@@ -61,5 +61,5 @@ Or perhaps make it part of your build in your `package.json`:
 ## roadmap
 
 - iron out problems with Windows
-- make use of other ejs features (includes, cache etc)
+- make use of other ejs features (cache etc)
 - build tests
