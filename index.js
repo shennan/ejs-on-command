@@ -57,18 +57,21 @@ function write(){
 
 	}
 
+    // add filename option - necessary to allow ejs <% include %>
+    options.filename = program.args[0];
+
 	// render the ejs with supplied options
 	output = ejs.render( input, options );
-	
+
 	// if a destination option is provided, write the output to a file
 	if( program.destination ){
-		
+
 		var file = path.join( process.cwd(), program.destination );
-		
+
 		mkdirp.sync(path.dirname( file ));
-		
+
 		fs.writeFileSync( file, output );
-	
+
 	}else{
 
 		// write the output to stdout
