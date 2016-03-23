@@ -21,7 +21,7 @@ $ npm install -g ejs-on-command
 Render ejs from stdout to stdout:
 
 ```
-$ echo "<h1><%= 'hellow world' %></h1>" | ejs-on-command
+$ echo "<h1><%= 'hello world' %></h1>" | ejs-on-command
 ```
 
 With options:
